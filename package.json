@@ -1,0 +1,21 @@
+{
+	"name": "new_ci_cd",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: This is a test error to see how ci/cd pipeline works.\" && exit 1",
+		"start": "tsc && node dist/server.js",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^5.2.1",
+		"typescript": "^5.9.3"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6"
+	}
+}
